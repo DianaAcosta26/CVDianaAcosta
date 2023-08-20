@@ -1,24 +1,26 @@
-/*Backgorund del sectionr*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');/*Backgorund del sectionr*/
 header{
-    background-color: #55939b;
+    background-image: url(/img/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
     height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-/*centrar foto Batman*/
+/*centrar foto mía*/
 .logo{
     text-align:center;
     padding: 10px;
 }
 /*Blackground section 2 header*/
 .blackground-section-titulo{
-    background-color:#C4C4C4;
+    background-color:#005677;
     height: 45px;
     padding: 5px;
 }
 /*título*/
 h1.título{
-    color: #005677;
+    color: whitesmoke;
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 35px;
     text-align: center;
     letter-spacing: 3px;
@@ -27,7 +29,16 @@ h1.título{
 /*Espacio blanco*/
 section.espacio-blanco{
     background-color: white;
-    height: 100px;
+    height: 20px;
+}
+p.menú{
+    text-align: center;
+    color:#005677;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15x;
+}
+main{
+    background-color: bisque;
 }
 /*Datos personales*/
 h2{
@@ -35,11 +46,13 @@ h2{
     background-color: #C4C4C4;
     letter-spacing: 4px;
     font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
 }
 ul.negrita-datos{
     font-weight: 700;
     font-style: italic;
     line-height: 25px;
+    font-family: 'Roboto Mono', monospace;
 }
 span.normal{
     font-weight: normal;
@@ -49,16 +62,34 @@ span.normal{
 ul.negrita-formacion{
     font-weight: 700;
     line-height: 18px;
+    font-family: 'Roboto Mono', monospace;
 }
 span.derecha{
-    margin: 37px;
-    font-weight: normal;height: ;
+    margin: 5%;
+    font-weight: normal;
 }
 h3.final{
     background-color: #005677;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Mono', monospace;
     padding: 5px;
     text-align: center;
     font-size: 18px;
+}
+i{
+    color: black;
+    font-size: 20px;
+}
+h2.sobremi{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p.sobremi{
+    text-align: justify;
+    color: black;
+    background-color: bisque;
+    font-family: 'Roboto Mono', monospace;
+    font-size: larger;
+    padding: 50px;
+    line-height: 30px;
 }
